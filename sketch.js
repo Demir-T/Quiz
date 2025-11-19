@@ -121,7 +121,7 @@ function mouseClicked() {
 
   // Question 8 – Final
   else if (number === 8) {
-    if (mouseX > 270 && mouseX < 400 && mouseY > 380 && mouseY < 530) {
+    if (mouseX > 75 && mouseX < 160 && mouseY > 225 && mouseY < 310) {
       output("🎉🎉🎉 Congratulations! You completed Quiz!");
       noLoop();
     } else output("No, try again");
